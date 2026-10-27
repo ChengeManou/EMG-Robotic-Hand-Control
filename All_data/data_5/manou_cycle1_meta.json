@@ -1,0 +1,2731 @@
+{
+  "subject": "manou",
+  "cycle": 1,
+  "args": {
+    "subject": "manou",
+    "cycle": 1,
+    "port": "COM9",
+    "reps": 5,
+    "rest": 3.0,
+    "contract": 3.0,
+    "outdir": "data_4",
+    "order": "block",
+    "seed": null,
+    "wear_start": null,
+    "fs": null,
+    "gap_ms": 20,
+    "adc_max": 4095,
+    "flat_std": 2.0,
+    "preflight_s": 3.0,
+    "notes": ""
+  },
+  "seed": 1790582679,
+  "schedule": [
+    [
+      "hand_open",
+      1
+    ],
+    [
+      "hand_open",
+      2
+    ],
+    [
+      "hand_open",
+      3
+    ],
+    [
+      "hand_open",
+      4
+    ],
+    [
+      "hand_open",
+      5
+    ],
+    [
+      "pinch",
+      1
+    ],
+    [
+      "pinch",
+      2
+    ],
+    [
+      "pinch",
+      3
+    ],
+    [
+      "pinch",
+      4
+    ],
+    [
+      "pinch",
+      5
+    ],
+    [
+      "pinky_up",
+      1
+    ],
+    [
+      "pinky_up",
+      2
+    ],
+    [
+      "pinky_up",
+      3
+    ],
+    [
+      "pinky_up",
+      4
+    ],
+    [
+      "pinky_up",
+      5
+    ],
+    [
+      "index_up",
+      1
+    ],
+    [
+      "index_up",
+      2
+    ],
+    [
+      "index_up",
+      3
+    ],
+    [
+      "index_up",
+      4
+    ],
+    [
+      "index_up",
+      5
+    ],
+    [
+      "middle_up",
+      1
+    ],
+    [
+      "middle_up",
+      2
+    ],
+    [
+      "middle_up",
+      3
+    ],
+    [
+      "middle_up",
+      4
+    ],
+    [
+      "middle_up",
+      5
+    ],
+    [
+      "hand_close",
+      1
+    ],
+    [
+      "hand_close",
+      2
+    ],
+    [
+      "hand_close",
+      3
+    ],
+    [
+      "hand_close",
+      4
+    ],
+    [
+      "hand_close",
+      5
+    ],
+    [
+      "rocknroll",
+      1
+    ],
+    [
+      "rocknroll",
+      2
+    ],
+    [
+      "rocknroll",
+      3
+    ],
+    [
+      "rocknroll",
+      4
+    ],
+    [
+      "rocknroll",
+      5
+    ]
+  ],
+  "start_iso": "2026-09-28T10:04:39",
+  "wear_start_iso": "2026-09-28T10:04:39",
+  "fatigue_start": 6,
+  "fatigue_end": 8,
+  "preflight": [
+    {
+      "ch": 1,
+      "mean": 1833.1,
+      "std": 3.76,
+      "min": 1811,
+      "max": 1861
+    },
+    {
+      "ch": 2,
+      "mean": 1832.5,
+      "std": 1.57,
+      "min": 1817,
+      "max": 1845
+    },
+    {
+      "ch": 3,
+      "mean": 1828.4,
+      "std": 4.29,
+      "min": 1811,
+      "max": 1851
+    },
+    {
+      "ch": 4,
+      "mean": 1829.9,
+      "std": 1.69,
+      "min": 1819,
+      "max": 1845
+    }
+  ],
+  "preflight_warnings": [
+    "ch2 looks flat (std 1.57): check lead / electrode contact",
+    "ch4 looks flat (std 1.69): check lead / electrode contact"
+  ],
+  "phases": [
+    {
+      "gesture": "hand_open",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3816,
+      "max_backlog_bytes": 12304,
+      "rate_hz": 0.1,
+      "max_gap_ms": 30818869,
+      "mean": [
+        1733.1,
+        1830.0,
+        1762.1,
+        1829.6
+      ],
+      "std": [
+        302.21,
+        6.42,
+        68.0,
+        2.2
+      ]
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3420,
+      "max_backlog_bytes": 619,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2015
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3414,
+      "max_backlog_bytes": 62,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2008,
+      "mean": [
+        1830.5,
+        1829.8,
+        1742.7,
+        1829.4
+      ],
+      "std": [
+        17.02,
+        8.67,
+        38.63,
+        4.96
+      ]
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3428,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2010,
+      "mean": [
+        1829.3,
+        1826.3,
+        1779.1,
+        1829.8
+      ],
+      "std": [
+        28.36,
+        9.45,
+        50.13,
+        1.84
+      ]
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3416,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2041
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3408,
+      "max_backlog_bytes": 89,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2035,
+      "mean": [
+        1830.9,
+        1612.3,
+        1720.2,
+        1829.7
+      ],
+      "std": [
+        16.73,
+        466.68,
+        63.44,
+        1.77
+      ]
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3419,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2006,
+      "mean": [
+        1832.7,
+        1830.2,
+        1679.5,
+        1829.2
+      ],
+      "std": [
+        5.8,
+        6.58,
+        46.17,
+        2.16
+      ]
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3414,
+      "max_backlog_bytes": 307,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2023
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3410,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1996,
+      "mean": [
+        1832.4,
+        1156.3,
+        1776.9,
+        1829.6
+      ],
+      "std": [
+        12.8,
+        654.16,
+        71.34,
+        2.12
+      ]
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3412,
+      "max_backlog_bytes": 276,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2030,
+      "mean": [
+        1833.0,
+        1771.8,
+        1750.9,
+        1829.6
+      ],
+      "std": [
+        6.7,
+        267.96,
+        54.99,
+        1.8
+      ]
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3413,
+      "max_backlog_bytes": 247,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1984
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3397,
+      "max_backlog_bytes": 119,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2033,
+      "mean": [
+        1831.0,
+        567.8,
+        1794.1,
+        1829.8
+      ],
+      "std": [
+        18.46,
+        303.55,
+        72.15,
+        2.05
+      ]
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3415,
+      "max_backlog_bytes": 239,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2016,
+      "mean": [
+        1833.1,
+        483.7,
+        1831.3,
+        1829.7
+      ],
+      "std": [
+        5.83,
+        19.31,
+        2.24,
+        1.89
+      ]
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3411,
+      "max_backlog_bytes": 299,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2037
+    },
+    {
+      "gesture": "hand_open",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3400,
+      "max_backlog_bytes": 89,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2007,
+      "mean": [
+        1832.4,
+        606.1,
+        1831.7,
+        1829.7
+      ],
+      "std": [
+        11.33,
+        353.53,
+        2.97,
+        2.09
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3409,
+      "max_backlog_bytes": 209,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2021,
+      "mean": [
+        1833.5,
+        483.3,
+        1832.1,
+        1830.1
+      ],
+      "std": [
+        4.53,
+        19.1,
+        1.99,
+        1.63
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3435,
+      "max_backlog_bytes": 241,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1951
+    },
+    {
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3410,
+      "max_backlog_bytes": 87,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2019,
+      "mean": [
+        1833.3,
+        482.5,
+        1831.4,
+        1829.7
+      ],
+      "std": [
+        7.25,
+        26.55,
+        3.34,
+        2.61
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3406,
+      "max_backlog_bytes": 119,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1984,
+      "mean": [
+        1833.5,
+        485.3,
+        1831.5,
+        1830.0
+      ],
+      "std": [
+        2.72,
+        22.1,
+        2.35,
+        1.81
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3414,
+      "max_backlog_bytes": 249,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2026
+    },
+    {
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3422,
+      "max_backlog_bytes": 63,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2011,
+      "mean": [
+        1833.0,
+        483.2,
+        1830.7,
+        1829.7
+      ],
+      "std": [
+        6.4,
+        29.3,
+        4.22,
+        2.83
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3416,
+      "max_backlog_bytes": 342,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2014,
+      "mean": [
+        1832.9,
+        484.1,
+        1830.7,
+        1829.8
+      ],
+      "std": [
+        3.05,
+        22.93,
+        2.65,
+        1.78
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3420,
+      "max_backlog_bytes": 371,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2023
+    },
+    {
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3404,
+      "max_backlog_bytes": 183,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2045,
+      "mean": [
+        1833.2,
+        481.6,
+        1792.4,
+        1829.5
+      ],
+      "std": [
+        6.08,
+        30.34,
+        40.21,
+        3.16
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3418,
+      "max_backlog_bytes": 312,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2013,
+      "mean": [
+        1833.3,
+        482.7,
+        1828.9,
+        1829.8
+      ],
+      "std": [
+        2.18,
+        22.55,
+        6.73,
+        2.25
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3422,
+      "max_backlog_bytes": 340,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2015
+    },
+    {
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3395,
+      "max_backlog_bytes": 123,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2021,
+      "mean": [
+        1833.2,
+        486.6,
+        1745.7,
+        1829.5
+      ],
+      "std": [
+        5.26,
+        46.38,
+        101.15,
+        2.78
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3411,
+      "max_backlog_bytes": 307,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2021,
+      "mean": [
+        1833.2,
+        481.3,
+        1797.5,
+        1829.8
+      ],
+      "std": [
+        4.87,
+        28.64,
+        19.92,
+        1.96
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3414,
+      "max_backlog_bytes": 369,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1950
+    },
+    {
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3408,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1988,
+      "mean": [
+        1833.0,
+        482.7,
+        1769.8,
+        1829.4
+      ],
+      "std": [
+        8.55,
+        38.84,
+        34.09,
+        2.88
+      ]
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3407,
+      "max_backlog_bytes": 309,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2021,
+      "mean": [
+        1832.9,
+        484.0,
+        1741.5,
+        1829.3
+      ],
+      "std": [
+        1.92,
+        23.64,
+        21.92,
+        2.05
+      ]
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3418,
+      "max_backlog_bytes": 369,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2026
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3404,
+      "max_backlog_bytes": 61,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2017,
+      "mean": [
+        1833.1,
+        486.4,
+        1816.7,
+        1829.7
+      ],
+      "std": [
+        8.36,
+        30.28,
+        17.06,
+        1.84
+      ]
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3417,
+      "max_backlog_bytes": 340,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2004,
+      "mean": [
+        1833.2,
+        482.5,
+        1817.5,
+        1829.6
+      ],
+      "std": [
+        1.65,
+        23.92,
+        3.8,
+        1.82
+      ]
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3419,
+      "max_backlog_bytes": 338,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1989
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3409,
+      "max_backlog_bytes": 62,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1962,
+      "mean": [
+        1833.5,
+        483.1,
+        1816.3,
+        1829.7
+      ],
+      "std": [
+        9.75,
+        24.88,
+        12.78,
+        3.81
+      ]
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3422,
+      "max_backlog_bytes": 340,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2017,
+      "mean": [
+        1833.5,
+        483.3,
+        1801.4,
+        1830.0
+      ],
+      "std": [
+        2.1,
+        23.34,
+        20.51,
+        1.78
+      ]
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3420,
+      "max_backlog_bytes": 340,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1996
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3410,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2016,
+      "mean": [
+        1833.3,
+        486.0,
+        1789.8,
+        1829.5
+      ],
+      "std": [
+        7.55,
+        43.61,
+        29.38,
+        6.02
+      ]
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3419,
+      "max_backlog_bytes": 310,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2003,
+      "mean": [
+        1833.7,
+        484.1,
+        1777.1,
+        1830.1
+      ],
+      "std": [
+        1.73,
+        24.38,
+        26.74,
+        2.24
+      ]
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3423,
+      "max_backlog_bytes": 340,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2011
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3415,
+      "max_backlog_bytes": 123,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1991,
+      "mean": [
+        1834.0,
+        483.7,
+        1816.4,
+        1830.3
+      ],
+      "std": [
+        6.91,
+        22.09,
+        8.32,
+        5.35
+      ]
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3425,
+      "max_backlog_bytes": 340,
+      "rate_hz": null,
+      "max_gap_ms": 2049,
+      "mean": [
+        1833.9,
+        483.8,
+        1819.8,
+        1830.5
+      ],
+      "std": [
+        1.76,
+        22.92,
+        10.82,
+        1.74
+      ]
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3382,
+      "max_backlog_bytes": 325,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2006
+    },
+    {
+      "gesture": "pinky_up",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3361,
+      "max_backlog_bytes": 83,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1996,
+      "mean": [
+        1833.9,
+        481.7,
+        1830.5,
+        1830.2
+      ],
+      "std": [
+        6.15,
+        27.05,
+        2.85,
+        3.64
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3385,
+      "max_backlog_bytes": 333,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2011,
+      "mean": [
+        1834.0,
+        480.2,
+        1829.0,
+        1830.6
+      ],
+      "std": [
+        2.13,
+        30.46,
+        3.36,
+        5.87
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3426,
+      "max_backlog_bytes": 249,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2024
+    },
+    {
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3405,
+      "max_backlog_bytes": 86,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2005,
+      "mean": [
+        1833.7,
+        483.5,
+        1779.5,
+        1830.1
+      ],
+      "std": [
+        4.65,
+        35.74,
+        51.28,
+        3.03
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3417,
+      "max_backlog_bytes": 318,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2010,
+      "mean": [
+        1833.8,
+        483.1,
+        1796.6,
+        1830.2
+      ],
+      "std": [
+        1.94,
+        30.61,
+        8.5,
+        2.67
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3409,
+      "max_backlog_bytes": 317,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1992
+    },
+    {
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3403,
+      "max_backlog_bytes": 89,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1946,
+      "mean": [
+        1833.8,
+        482.8,
+        1792.4,
+        1830.3
+      ],
+      "std": [
+        5.07,
+        32.36,
+        15.15,
+        2.94
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3410,
+      "max_backlog_bytes": 289,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1990,
+      "mean": [
+        1833.8,
+        481.3,
+        1803.7,
+        1830.3
+      ],
+      "std": [
+        1.86,
+        26.53,
+        19.46,
+        2.09
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3409,
+      "max_backlog_bytes": 319,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1991
+    },
+    {
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3402,
+      "max_backlog_bytes": 202,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1982,
+      "mean": [
+        1832.6,
+        501.4,
+        1709.7,
+        1830.1
+      ],
+      "std": [
+        8.61,
+        134.9,
+        245.49,
+        4.14
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3420,
+      "max_backlog_bytes": 318,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2016,
+      "mean": [
+        1833.6,
+        1574.5,
+        1830.9,
+        1830.0
+      ],
+      "std": [
+        1.88,
+        506.03,
+        3.67,
+        2.65
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3411,
+      "max_backlog_bytes": 329,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2004
+    },
+    {
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3406,
+      "max_backlog_bytes": 117,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1966,
+      "mean": [
+        1833.4,
+        1833.2,
+        1832.0,
+        1829.7
+      ],
+      "std": [
+        4.47,
+        1.53,
+        2.35,
+        2.58
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3414,
+      "max_backlog_bytes": 329,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1981,
+      "mean": [
+        1833.3,
+        1832.9,
+        1831.7,
+        1829.6
+      ],
+      "std": [
+        1.88,
+        1.51,
+        2.68,
+        2.52
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3418,
+      "max_backlog_bytes": 299,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2003
+    },
+    {
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3405,
+      "max_backlog_bytes": 119,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2010,
+      "mean": [
+        1833.1,
+        1832.9,
+        1831.6,
+        1829.9
+      ],
+      "std": [
+        3.2,
+        1.49,
+        2.33,
+        2.66
+      ]
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3419,
+      "max_backlog_bytes": 327,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2035,
+      "mean": [
+        1833.2,
+        1832.9,
+        1831.2,
+        1829.8
+      ],
+      "std": [
+        2.17,
+        1.6,
+        2.77,
+        2.21
+      ]
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3412,
+      "max_backlog_bytes": 389,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1980
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3399,
+      "max_backlog_bytes": 117,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2006,
+      "mean": [
+        1833.7,
+        1833.1,
+        1832.4,
+        1829.8
+      ],
+      "std": [
+        8.01,
+        1.54,
+        2.3,
+        4.56
+      ]
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3415,
+      "max_backlog_bytes": 332,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2003,
+      "mean": [
+        1833.7,
+        1833.3,
+        1832.9,
+        1830.3
+      ],
+      "std": [
+        5.33,
+        1.56,
+        1.78,
+        1.84
+      ]
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3412,
+      "max_backlog_bytes": 359,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2014
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3403,
+      "max_backlog_bytes": 90,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1999,
+      "mean": [
+        1833.6,
+        1833.1,
+        1832.1,
+        1830.1
+      ],
+      "std": [
+        9.48,
+        1.68,
+        1.97,
+        2.75
+      ]
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3417,
+      "max_backlog_bytes": 329,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2034,
+      "mean": [
+        1833.4,
+        1833.0,
+        1831.9,
+        1830.1
+      ],
+      "std": [
+        7.6,
+        1.58,
+        1.8,
+        1.89
+      ]
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3410,
+      "max_backlog_bytes": 329,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2039
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3398,
+      "max_backlog_bytes": 89,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2008,
+      "mean": [
+        1833.2,
+        1832.6,
+        1831.4,
+        1829.6
+      ],
+      "std": [
+        7.98,
+        1.57,
+        2.22,
+        2.92
+      ]
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3410,
+      "max_backlog_bytes": 331,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2026,
+      "mean": [
+        1833.0,
+        1832.6,
+        1831.9,
+        1829.6
+      ],
+      "std": [
+        7.22,
+        1.5,
+        1.83,
+        1.91
+      ]
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3416,
+      "max_backlog_bytes": 329,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2017
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3407,
+      "max_backlog_bytes": 119,
+      "rate_hz": 1.1,
+      "max_gap_ms": 1989,
+      "mean": [
+        1833.4,
+        1832.9,
+        1831.8,
+        1829.8
+      ],
+      "std": [
+        9.06,
+        1.47,
+        2.29,
+        3.12
+      ]
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3397,
+      "max_backlog_bytes": 179,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2018,
+      "mean": [
+        1832.9,
+        1832.7,
+        1831.8,
+        1829.7
+      ],
+      "std": [
+        8.65,
+        1.58,
+        1.83,
+        1.89
+      ]
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3400,
+      "max_backlog_bytes": 210,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2038
+    },
+    {
+      "gesture": "middle_up",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3397,
+      "max_backlog_bytes": 88,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2000,
+      "mean": [
+        1833.3,
+        1833.0,
+        1830.2,
+        1829.9
+      ],
+      "std": [
+        9.72,
+        1.52,
+        2.48,
+        2.91
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3405,
+      "max_backlog_bytes": 417,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2028,
+      "mean": [
+        1833.3,
+        1833.0,
+        1830.5,
+        1830.1
+      ],
+      "std": [
+        9.15,
+        1.56,
+        2.32,
+        1.79
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3406,
+      "max_backlog_bytes": 329,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2033
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3405,
+      "max_backlog_bytes": 62,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2019,
+      "mean": [
+        1833.4,
+        1833.0,
+        1831.2,
+        1830.1
+      ],
+      "std": [
+        11.35,
+        1.56,
+        2.52,
+        3.49
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3414,
+      "max_backlog_bytes": 341,
+      "rate_hz": 1.1,
+      "max_gap_ms": 2012,
+      "mean": [
+        1833.3,
+        1833.0,
+        1831.2,
+        1830.1
+      ],
+      "std": [
+        10.05,
+        1.56,
+        1.86,
+        2.03
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3040,
+      "max_backlog_bytes": 340,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1910
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3001,
+      "max_backlog_bytes": 61,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1855,
+      "mean": [
+        1833.7,
+        1832.9,
+        1831.8,
+        1829.9
+      ],
+      "std": [
+        11.76,
+        1.55,
+        6.32,
+        13.84
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1855,
+      "mean": [
+        1833.3,
+        1832.9,
+        1831.8,
+        1829.9
+      ],
+      "std": [
+        9.31,
+        1.59,
+        2.07,
+        3.89
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 307,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1858
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1856,
+      "mean": [
+        1833.9,
+        1833.1,
+        1832.0,
+        1830.0
+      ],
+      "std": [
+        12.46,
+        1.51,
+        4.77,
+        15.69
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3008,
+      "max_backlog_bytes": 248,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1853,
+      "mean": [
+        1833.2,
+        1832.8,
+        1831.6,
+        1829.9
+      ],
+      "std": [
+        9.23,
+        1.5,
+        1.9,
+        2.18
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1857
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 62,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1862,
+      "mean": [
+        1833.9,
+        1833.1,
+        1827.9,
+        1830.1
+      ],
+      "std": [
+        11.67,
+        1.36,
+        4.22,
+        10.19
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 309,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1860,
+      "mean": [
+        1833.6,
+        1833.2,
+        1827.1,
+        1830.2
+      ],
+      "std": [
+        9.49,
+        1.45,
+        2.89,
+        2.25
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3010,
+      "max_backlog_bytes": 281,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1860
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1855,
+      "mean": [
+        1833.8,
+        1833.1,
+        1829.1,
+        1830.0
+      ],
+      "std": [
+        14.09,
+        1.58,
+        6.11,
+        10.46
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3008,
+      "max_backlog_bytes": 279,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1858,
+      "mean": [
+        1833.4,
+        1833.1,
+        1826.9,
+        1830.2
+      ],
+      "std": [
+        10.71,
+        1.5,
+        9.03,
+        1.99
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1859
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 32,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1854,
+      "mean": [
+        1832.3,
+        1830.6,
+        1809.5,
+        1829.6
+      ],
+      "std": [
+        12.56,
+        29.94,
+        14.83,
+        3.15
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3007,
+      "max_backlog_bytes": 247,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1852,
+      "mean": [
+        1833.4,
+        1832.8,
+        1819.3,
+        1830.0
+      ],
+      "std": [
+        7.41,
+        1.59,
+        15.01,
+        2.08
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3010,
+      "max_backlog_bytes": 280,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1865
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 123,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1866,
+      "mean": [
+        1831.2,
+        1832.8,
+        1684.9,
+        1829.7
+      ],
+      "std": [
+        15.99,
+        1.45,
+        100.92,
+        3.85
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1862,
+      "mean": [
+        1833.5,
+        1833.0,
+        1737.8,
+        1830.0
+      ],
+      "std": [
+        8.69,
+        1.49,
+        52.15,
+        2.05
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1859
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3001,
+      "max_backlog_bytes": 32,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1863,
+      "mean": [
+        1833.1,
+        1833.0,
+        1820.4,
+        1830.0
+      ],
+      "std": [
+        9.9,
+        1.52,
+        20.94,
+        2.69
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3008,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1860,
+      "mean": [
+        1832.1,
+        1766.7,
+        1824.2,
+        1829.8
+      ],
+      "std": [
+        20.48,
+        281.18,
+        27.82,
+        2.77
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 241,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1858
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1861,
+      "mean": [
+        1833.1,
+        1832.9,
+        1687.8,
+        1829.5
+      ],
+      "std": [
+        7.56,
+        1.38,
+        78.15,
+        2.74
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3010,
+      "max_backlog_bytes": 280,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1864,
+      "mean": [
+        1833.2,
+        1832.9,
+        1706.5,
+        1829.7
+      ],
+      "std": [
+        2.15,
+        1.5,
+        46.17,
+        1.84
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1862
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 89,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1839,
+      "mean": [
+        1832.8,
+        1619.0,
+        1768.3,
+        1829.1
+      ],
+      "std": [
+        10.37,
+        490.34,
+        129.45,
+        4.56
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "trial": 1,
+      "gesture": "hand_open",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "30818869 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 1,
+      "gesture": "hand_open",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "2015 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 1,
+      "gesture": "hand_open",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2008 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 2,
+      "gesture": "hand_open",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "2010 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 2,
+      "gesture": "hand_open",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "2041 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 2,
+      "gesture": "hand_open",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "2035 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 3,
+      "gesture": "hand_open",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "2006 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 3,
+      "gesture": "hand_open",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "2023 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 3,
+      "gesture": "hand_open",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1996 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 4,
+      "gesture": "hand_open",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "2030 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 4,
+      "gesture": "hand_open",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "1984 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 4,
+      "gesture": "hand_open",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "2033 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 5,
+      "gesture": "hand_open",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "2016 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 5,
+      "gesture": "hand_open",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "2037 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 5,
+      "gesture": "hand_open",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "2007 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 6,
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2021 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 6,
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "1951 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 6,
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2019 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 7,
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1984 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 7,
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "2026 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 7,
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "2011 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 8,
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "2014 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 8,
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "2023 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 8,
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "2045 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 9,
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "2013 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 9,
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "2015 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 9,
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "2021 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 10,
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "2021 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 10,
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "1950 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 10,
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1988 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 11,
+      "gesture": "pinky_up",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2021 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 11,
+      "gesture": "pinky_up",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "2026 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 11,
+      "gesture": "pinky_up",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2017 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 12,
+      "gesture": "pinky_up",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "2004 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 12,
+      "gesture": "pinky_up",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "1989 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 12,
+      "gesture": "pinky_up",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1962 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 13,
+      "gesture": "pinky_up",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "2017 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 13,
+      "gesture": "pinky_up",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "1996 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 13,
+      "gesture": "pinky_up",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "2016 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 14,
+      "gesture": "pinky_up",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "2003 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 14,
+      "gesture": "pinky_up",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "2011 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 14,
+      "gesture": "pinky_up",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1991 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 15,
+      "gesture": "pinky_up",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "2049 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 15,
+      "gesture": "pinky_up",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "2006 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 15,
+      "gesture": "pinky_up",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1996 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 16,
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2011 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 16,
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "2024 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 16,
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2005 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 17,
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "2010 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 17,
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "1992 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 17,
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1946 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 18,
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1990 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 18,
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "1991 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 18,
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1982 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 19,
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "2016 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 19,
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "2004 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 19,
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1966 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 20,
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1981 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 20,
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "2003 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 20,
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "2010 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 21,
+      "gesture": "middle_up",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2035 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 21,
+      "gesture": "middle_up",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "1980 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 21,
+      "gesture": "middle_up",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2006 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 22,
+      "gesture": "middle_up",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "2003 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 22,
+      "gesture": "middle_up",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "2014 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 22,
+      "gesture": "middle_up",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1999 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 23,
+      "gesture": "middle_up",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "2034 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 23,
+      "gesture": "middle_up",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "2039 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 23,
+      "gesture": "middle_up",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "2008 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 24,
+      "gesture": "middle_up",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "2026 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 24,
+      "gesture": "middle_up",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "2017 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 24,
+      "gesture": "middle_up",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1989 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 25,
+      "gesture": "middle_up",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "2018 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 25,
+      "gesture": "middle_up",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "2038 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 25,
+      "gesture": "middle_up",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "2000 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 26,
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2028 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 26,
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "2033 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 26,
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2019 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 27,
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "2012 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 27,
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "1910 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 27,
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1855 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 28,
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1855 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 28,
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "1858 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 28,
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1856 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 29,
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1853 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 29,
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "1857 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 29,
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1862 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 30,
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1860 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 30,
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "1860 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 30,
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1855 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 31,
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "1858 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 31,
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "1859 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 31,
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "1854 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 32,
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1852 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 32,
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "1865 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 32,
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1866 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 33,
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1862 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 33,
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "1859 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 33,
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1863 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 34,
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1860 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 34,
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "1858 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 34,
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1861 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 35,
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1864 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 35,
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "1862 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 35,
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1839 ms gap (dropped samples?)"
+    }
+  ],
+  "bad_serial_lines": 3,
+  "completed": true,
+  "completed_trials": 35,
+  "error": null
+}

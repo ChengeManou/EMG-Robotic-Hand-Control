@@ -1,0 +1,3 @@
+import new_tele_op_new_hand_code
+
+new_tele_op_new_hand_code.main()

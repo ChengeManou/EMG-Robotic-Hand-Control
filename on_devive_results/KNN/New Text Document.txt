@@ -1,0 +1,8 @@
+Accuracy: 160/210 = 76.19%
+
+stage           min     mean   median      max  (ms)
+feature       40.53    46.03    48.46    50.36
+infer       2459.43  2602.83  2629.02  2680.02
+total       2500.74  2648.87  2674.93  2728.77
+
+Mean total latency (2648.9ms) exceeds the 150ms real-time budget.

@@ -1,0 +1,2 @@
+subject,window_ms,step_ms,classifier,params,n_features,n_cycle1,n_cycle2,n_cycle3,cv_cycle1_to_cycle2,cv_cycle2_to_cycle1,cv_mean_accuracy,test_accuracy
+23,100,25.0,RF,"{""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_split"": 2, ""n_estimators"": 200}",32,197,197,200,0.7208121827411168,0.751269035532995,0.7360406091370559,0.435

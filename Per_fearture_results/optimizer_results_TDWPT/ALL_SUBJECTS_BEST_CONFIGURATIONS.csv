@@ -1,0 +1,2 @@
+subject,feature_set,window_ms,classifier,cv_mean_accuracy,cv_cycle1_to_cycle2,cv_cycle2_to_cycle1,test_accuracy,params
+13,TDWPT,100,RF,0.8833244727981571,0.8851674641148325,0.8814814814814815,0.9157894736842105,"{""max_depth"": null, ""max_features"": ""log2"", ""min_samples_split"": 2, ""n_estimators"": 200}"

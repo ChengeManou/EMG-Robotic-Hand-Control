@@ -1,0 +1,17 @@
+Online Classifiers Results:
+MPY: soft reboot
+============================================================
+ON-DEVICE TEST: LDA, 210 windows
+============================================================
+  [0/210] pred=3 (middle_up) true=3
+  [100/210] pred=6 (thumb_up) true=6
+  [200/210] pred=0 (hand_close) true=0
+
+Accuracy: 171/210 = 81.43%
+
+stage           min     mean   median      max  (ms)
+feature       45.33    46.11    46.10    50.57
+infer          1.15     1.23     1.23     4.43
+total         46.57    47.34    47.31    55.00
+
+Mean total latency (47.3ms) is within the 150ms real-time budget.

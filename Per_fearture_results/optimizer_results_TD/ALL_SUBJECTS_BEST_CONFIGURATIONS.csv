@@ -1,0 +1,2 @@
+subject,feature_set,window_ms,classifier,cv_mean_accuracy,cv_cycle1_to_cycle2,cv_cycle2_to_cycle1,test_accuracy,params
+13,TD,500,SVM,0.8908684546615582,0.896551724137931,0.8851851851851852,0.8947368421052632,"{""C"": 100, ""gamma"": 0.01, ""kernel"": ""rbf""}"

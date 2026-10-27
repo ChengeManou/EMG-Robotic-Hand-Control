@@ -1,0 +1,16 @@
+MPY: soft reboot
+============================================================
+ON-DEVICE TEST: SVM, 210 windows
+============================================================
+  [0/210] pred=3 (middle_up) true=3
+  [100/210] pred=6 (thumb_up) true=6
+  [200/210] pred=0 (hand_close) true=0
+
+Accuracy: 172/210 = 81.90%
+
+stage           min     mean   median      max  (ms)
+feature       45.22    46.12    46.09    50.47
+infer          1.06     1.15     1.10     4.29
+total         46.27    47.27    47.23    54.76
+
+Mean total latency (47.3ms) is within the 150ms real-time budget.

@@ -1,0 +1,5 @@
+Subject: manou
+Cycle: 2
+Gesture order: ['index_up', 'pinch_rest', 'rocnroll', 'middle_up', 'peace', 'hand_close']
+Reps per gesture: 5
+Rest: 3.0s, Contract: 3.0s

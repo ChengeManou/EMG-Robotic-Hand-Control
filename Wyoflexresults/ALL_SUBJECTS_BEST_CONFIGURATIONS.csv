@@ -1,0 +1,2 @@
+subject,window_ms,classifier,cv_mean_accuracy,cv_cycle1_to_cycle2,cv_cycle2_to_cycle1,test_accuracy,params
+28,500,LDA,0.7925339366515837,0.7615384615384615,0.8235294117647058,0.6135593220338983,"{""shrinkage"": ""auto"", ""solver"": ""lsqr""}"

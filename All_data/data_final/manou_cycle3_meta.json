@@ -1,0 +1,1588 @@
+{
+  "subject": "manou",
+  "cycle": 3,
+  "args": {
+    "subject": "manou",
+    "cycle": 3,
+    "port": "COM9",
+    "reps": 5,
+    "rest": 3.0,
+    "contract": 3.0,
+    "outdir": "data_final",
+    "order": "block",
+    "seed": null,
+    "wear_start": null,
+    "fs": null,
+    "gap_ms": 20,
+    "adc_max": 4095,
+    "flat_std": 2.0,
+    "preflight_s": 3.0,
+    "notes": ""
+  },
+  "seed": 1792054885,
+  "schedule": [
+    [
+      "pinch",
+      1
+    ],
+    [
+      "pinch",
+      2
+    ],
+    [
+      "pinch",
+      3
+    ],
+    [
+      "pinch",
+      4
+    ],
+    [
+      "pinch",
+      5
+    ],
+    [
+      "rocknroll",
+      1
+    ],
+    [
+      "rocknroll",
+      2
+    ],
+    [
+      "rocknroll",
+      3
+    ],
+    [
+      "rocknroll",
+      4
+    ],
+    [
+      "rocknroll",
+      5
+    ],
+    [
+      "index_up",
+      1
+    ],
+    [
+      "index_up",
+      2
+    ],
+    [
+      "index_up",
+      3
+    ],
+    [
+      "index_up",
+      4
+    ],
+    [
+      "index_up",
+      5
+    ],
+    [
+      "hand_close",
+      1
+    ],
+    [
+      "hand_close",
+      2
+    ],
+    [
+      "hand_close",
+      3
+    ],
+    [
+      "hand_close",
+      4
+    ],
+    [
+      "hand_close",
+      5
+    ]
+  ],
+  "start_iso": "2026-10-15T11:01:25",
+  "wear_start_iso": "2026-10-15T11:01:25",
+  "fatigue_start": null,
+  "fatigue_end": 8,
+  "preflight": [
+    {
+      "ch": 1,
+      "mean": 1831.4,
+      "std": 8.59,
+      "min": 1797,
+      "max": 1881
+    },
+    {
+      "ch": 2,
+      "mean": 1822.4,
+      "std": 24.7,
+      "min": 1692,
+      "max": 1943
+    },
+    {
+      "ch": 3,
+      "mean": 1834.6,
+      "std": 7.51,
+      "min": 1800,
+      "max": 1875
+    },
+    {
+      "ch": 4,
+      "mean": 1826.8,
+      "std": 5.33,
+      "min": 1779,
+      "max": 1862
+    }
+  ],
+  "preflight_warnings": [],
+  "phases": [
+    {
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3076,
+      "max_backlog_bytes": 319,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1941,
+      "mean": [
+        1831.5,
+        1825.0,
+        1834.3,
+        1827.1
+      ],
+      "std": [
+        8.02,
+        20.89,
+        5.08,
+        4.1
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3008,
+      "max_backlog_bytes": 255,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1873
+    },
+    {
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 64,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1875,
+      "mean": [
+        1831.5,
+        1792.9,
+        1833.1,
+        1827.6
+      ],
+      "std": [
+        15.02,
+        46.74,
+        4.06,
+        7.73
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3007,
+      "max_backlog_bytes": 223,
+      "rate_hz": null,
+      "max_gap_ms": 2121,
+      "mean": [
+        1831.3,
+        1811.9,
+        1832.1,
+        1827.5
+      ],
+      "std": [
+        4.47,
+        17.73,
+        1.64,
+        2.77
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3007,
+      "max_backlog_bytes": 196,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1874
+    },
+    {
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 86,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1886,
+      "mean": [
+        1831.0,
+        1823.5,
+        1832.2,
+        1829.3
+      ],
+      "std": [
+        11.71,
+        33.54,
+        2.71,
+        3.75
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 233,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1870,
+      "mean": [
+        1831.2,
+        1829.7,
+        1832.6,
+        1829.4
+      ],
+      "std": [
+        3.62,
+        8.51,
+        1.92,
+        2.29
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3007,
+      "max_backlog_bytes": 231,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1878
+    },
+    {
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 62,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1869,
+      "mean": [
+        1831.2,
+        1823.9,
+        1832.5,
+        1829.7
+      ],
+      "std": [
+        12.08,
+        32.58,
+        3.17,
+        6.06
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3007,
+      "max_backlog_bytes": 209,
+      "rate_hz": 1.0,
+      "max_gap_ms": 2069,
+      "mean": [
+        1831.5,
+        1787.9,
+        1833.3,
+        1829.9
+      ],
+      "std": [
+        3.89,
+        33.08,
+        1.63,
+        2.25
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 269,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1881
+    },
+    {
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 89,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1881,
+      "mean": [
+        1831.4,
+        1814.6,
+        1832.9,
+        1830.0
+      ],
+      "std": [
+        11.15,
+        36.03,
+        2.93,
+        5.07
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3010,
+      "max_backlog_bytes": 299,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1876,
+      "mean": [
+        1832.0,
+        1825.1,
+        1834.4,
+        1830.5
+      ],
+      "std": [
+        3.34,
+        5.95,
+        1.7,
+        1.82
+      ]
+    },
+    {
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 269,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1865
+    },
+    {
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 89,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1874,
+      "mean": [
+        1831.6,
+        1811.2,
+        1833.4,
+        1830.2
+      ],
+      "std": [
+        12.1,
+        42.63,
+        3.36,
+        7.26
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 242,
+      "rate_hz": 1.0,
+      "max_gap_ms": 2127,
+      "mean": [
+        1831.7,
+        1825.9,
+        1833.6,
+        1830.3
+      ],
+      "std": [
+        3.95,
+        6.38,
+        1.68,
+        2.05
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 299,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1879
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 61,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1878,
+      "mean": [
+        1831.1,
+        1822.1,
+        1833.5,
+        1830.1
+      ],
+      "std": [
+        11.53,
+        35.76,
+        3.97,
+        5.21
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3010,
+      "max_backlog_bytes": 299,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1873,
+      "mean": [
+        1831.7,
+        1827.2,
+        1833.4,
+        1830.2
+      ],
+      "std": [
+        3.36,
+        5.88,
+        1.51,
+        2.0
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3008,
+      "max_backlog_bytes": 240,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1870
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 89,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1867,
+      "mean": [
+        1831.5,
+        1819.5,
+        1833.3,
+        1830.3
+      ],
+      "std": [
+        12.91,
+        42.17,
+        5.59,
+        6.15
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 297,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1876,
+      "mean": [
+        1831.8,
+        1827.5,
+        1832.3,
+        1830.4
+      ],
+      "std": [
+        2.47,
+        6.45,
+        1.62,
+        1.62
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3010,
+      "max_backlog_bytes": 299,
+      "rate_hz": 1.0,
+      "max_gap_ms": 2014
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 59,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1877,
+      "mean": [
+        1831.7,
+        1821.5,
+        1833.3,
+        1830.4
+      ],
+      "std": [
+        9.81,
+        39.63,
+        4.63,
+        6.0
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3008,
+      "max_backlog_bytes": 240,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1877,
+      "mean": [
+        1832.0,
+        1827.5,
+        1832.7,
+        1830.6
+      ],
+      "std": [
+        3.94,
+        8.46,
+        1.73,
+        1.92
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3003,
+      "max_backlog_bytes": 119,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1872
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 61,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1873,
+      "mean": [
+        1831.6,
+        1822.0,
+        1831.7,
+        1830.6
+      ],
+      "std": [
+        12.65,
+        35.37,
+        4.45,
+        5.1
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 297,
+      "rate_hz": 1.0,
+      "max_gap_ms": 2254,
+      "mean": [
+        1831.8,
+        1827.6,
+        1831.4,
+        1830.4
+      ],
+      "std": [
+        3.36,
+        5.91,
+        1.73,
+        2.01
+      ]
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 297,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1873
+    },
+    {
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 62,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1879,
+      "mean": [
+        1831.7,
+        1822.6,
+        1831.6,
+        1830.3
+      ],
+      "std": [
+        9.06,
+        33.19,
+        3.83,
+        5.05
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3010,
+      "max_backlog_bytes": 299,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1875,
+      "mean": [
+        1831.8,
+        1829.4,
+        1831.8,
+        1830.6
+      ],
+      "std": [
+        2.75,
+        5.01,
+        1.64,
+        1.97
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3008,
+      "max_backlog_bytes": 269,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1876
+    },
+    {
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 89,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1883,
+      "mean": [
+        1831.5,
+        1826.1,
+        1831.1,
+        1830.0
+      ],
+      "std": [
+        7.55,
+        23.25,
+        3.4,
+        4.78
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3008,
+      "max_backlog_bytes": 239,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1933,
+      "mean": [
+        1831.6,
+        1829.6,
+        1831.3,
+        1830.3
+      ],
+      "std": [
+        3.49,
+        7.93,
+        1.77,
+        2.14
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3003,
+      "max_backlog_bytes": 117,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1874
+    },
+    {
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 59,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1874,
+      "mean": [
+        1831.6,
+        1828.7,
+        1830.7,
+        1830.3
+      ],
+      "std": [
+        7.49,
+        20.69,
+        3.03,
+        6.53
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 269,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1880,
+      "mean": [
+        1831.8,
+        1832.2,
+        1831.7,
+        1830.4
+      ],
+      "std": [
+        2.8,
+        7.03,
+        1.69,
+        1.99
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3005,
+      "max_backlog_bytes": 154,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1876
+    },
+    {
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.0,
+      "max_gap_ms": 2106,
+      "mean": [
+        1831.8,
+        1830.2,
+        1831.5,
+        1830.2
+      ],
+      "std": [
+        6.48,
+        15.72,
+        2.59,
+        4.1
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 307,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1981,
+      "mean": [
+        1831.8,
+        1832.1,
+        1833.0,
+        1830.4
+      ],
+      "std": [
+        1.77,
+        2.81,
+        2.01,
+        1.79
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3010,
+      "max_backlog_bytes": 309,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1854
+    },
+    {
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1874,
+      "mean": [
+        1832.2,
+        1828.7,
+        1832.7,
+        1830.7
+      ],
+      "std": [
+        5.68,
+        22.97,
+        2.94,
+        6.26
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 279,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1876,
+      "mean": [
+        1832.1,
+        1832.5,
+        1832.1,
+        1830.7
+      ],
+      "std": [
+        2.18,
+        3.12,
+        1.57,
+        1.7
+      ]
+    },
+    {
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3012,
+      "max_backlog_bytes": 371,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1886
+    },
+    {
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1888,
+      "mean": [
+        1831.9,
+        1830.1,
+        1832.9,
+        1830.5
+      ],
+      "std": [
+        5.43,
+        25.61,
+        4.29,
+        5.53
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.0,
+      "max_gap_ms": 2108,
+      "mean": [
+        1831.4,
+        1827.5,
+        1826.3,
+        1812.3
+      ],
+      "std": [
+        3.68,
+        12.34,
+        12.1,
+        13.9
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "contract",
+      "n": 3010,
+      "max_backlog_bytes": 309,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1872
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1879,
+      "mean": [
+        1830.7,
+        1833.2,
+        1823.0,
+        1818.9
+      ],
+      "std": [
+        5.43,
+        9.64,
+        2.52,
+        4.29
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3008,
+      "max_backlog_bytes": 279,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1874,
+      "mean": [
+        1830.6,
+        1833.2,
+        1823.1,
+        1820.2
+      ],
+      "std": [
+        3.84,
+        8.55,
+        5.42,
+        2.46
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 250,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1868
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1864,
+      "mean": [
+        1830.7,
+        1833.2,
+        1832.4,
+        1828.6
+      ],
+      "std": [
+        8.48,
+        16.69,
+        11.53,
+        8.26
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3010,
+      "max_backlog_bytes": 309,
+      "rate_hz": 1.0,
+      "max_gap_ms": 2221,
+      "mean": [
+        1831.0,
+        1833.9,
+        1838.9,
+        1829.6
+      ],
+      "std": [
+        3.33,
+        8.29,
+        2.19,
+        1.92
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "contract",
+      "n": 3010,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1873
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "rest",
+      "n": 3002,
+      "max_backlog_bytes": 62,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1872,
+      "mean": [
+        1831.1,
+        1834.0,
+        1820.5,
+        1829.8
+      ],
+      "std": [
+        5.88,
+        12.46,
+        6.3,
+        7.83
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 307,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1882,
+      "mean": [
+        1830.7,
+        1833.7,
+        1819.0,
+        1829.8
+      ],
+      "std": [
+        3.57,
+        9.44,
+        1.52,
+        2.09
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "contract",
+      "n": 3006,
+      "max_backlog_bytes": 185,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1878
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1883,
+      "mean": [
+        1830.8,
+        1833.8,
+        1818.0,
+        1829.7
+      ],
+      "std": [
+        5.31,
+        12.65,
+        5.2,
+        5.74
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3009,
+      "max_backlog_bytes": 278,
+      "rate_hz": 1.0,
+      "max_gap_ms": 2107,
+      "mean": [
+        1830.9,
+        1833.8,
+        1818.1,
+        1829.9
+      ],
+      "std": [
+        2.23,
+        9.32,
+        1.48,
+        1.89
+      ]
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "contract",
+      "n": 3009,
+      "max_backlog_bytes": 307,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1883
+    },
+    {
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "rest",
+      "n": 3003,
+      "max_backlog_bytes": 92,
+      "rate_hz": 1.0,
+      "max_gap_ms": 1876,
+      "mean": [
+        1830.9,
+        1834.1,
+        1832.3,
+        1830.1
+      ],
+      "std": [
+        5.66,
+        13.44,
+        6.72,
+        7.98
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "trial": 1,
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "1941 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 1,
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "1873 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 1,
+      "gesture": "pinch",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "1875 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 2,
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "2121 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 2,
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "1874 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 2,
+      "gesture": "pinch",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1886 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 3,
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1870 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 3,
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "1878 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 3,
+      "gesture": "pinch",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1869 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 4,
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "2069 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 4,
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "1881 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 4,
+      "gesture": "pinch",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1881 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 5,
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1876 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 5,
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "1865 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 5,
+      "gesture": "pinch",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1874 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 6,
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2127 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 6,
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "1879 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 6,
+      "gesture": "rocknroll",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "1878 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 7,
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1873 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 7,
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "1870 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 7,
+      "gesture": "rocknroll",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1867 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 8,
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1876 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 8,
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "2014 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 8,
+      "gesture": "rocknroll",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1877 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 9,
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1877 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 9,
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "1872 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 9,
+      "gesture": "rocknroll",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1873 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 10,
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "2254 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 10,
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "1873 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 10,
+      "gesture": "rocknroll",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1879 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 11,
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "1875 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 11,
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "1876 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 11,
+      "gesture": "index_up",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "1883 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 12,
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1933 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 12,
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "1874 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 12,
+      "gesture": "index_up",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1874 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 13,
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1880 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 13,
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "1876 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 13,
+      "gesture": "index_up",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "2106 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 14,
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1981 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 14,
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "1854 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 14,
+      "gesture": "index_up",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1874 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 15,
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1876 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 15,
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "1886 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 15,
+      "gesture": "index_up",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1888 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 16,
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "2108 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 16,
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "contract",
+      "warning": "1872 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 16,
+      "gesture": "hand_close",
+      "rep": 1,
+      "phase": "rest",
+      "warning": "1879 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 17,
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1874 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 17,
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "contract",
+      "warning": "1868 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 17,
+      "gesture": "hand_close",
+      "rep": 2,
+      "phase": "rest",
+      "warning": "1864 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 18,
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "2221 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 18,
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "contract",
+      "warning": "1873 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 18,
+      "gesture": "hand_close",
+      "rep": 3,
+      "phase": "rest",
+      "warning": "1872 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 19,
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1882 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 19,
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "contract",
+      "warning": "1878 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 19,
+      "gesture": "hand_close",
+      "rep": 4,
+      "phase": "rest",
+      "warning": "1883 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 20,
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "2107 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 20,
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "contract",
+      "warning": "1883 ms gap (dropped samples?)"
+    },
+    {
+      "trial": 20,
+      "gesture": "hand_close",
+      "rep": 5,
+      "phase": "rest",
+      "warning": "1876 ms gap (dropped samples?)"
+    }
+  ],
+  "bad_serial_lines": 1,
+  "completed": true,
+  "completed_trials": 20,
+  "error": null
+}

@@ -1,0 +1,2 @@
+subject,window_ms,step_ms,classifier,params,n_features,n_cycle1,n_cycle2,n_cycle3,cv_cycle1_to_cycle2,cv_cycle2_to_cycle1,cv_mean_accuracy,test_accuracy
+22,100,25.0,SVM,"{""C"": 1, ""gamma"": ""scale"", ""kernel"": ""rbf""}",32,244,212,384,0.7688679245283019,0.7991803278688525,0.7840241261985772,0.4427083333333333

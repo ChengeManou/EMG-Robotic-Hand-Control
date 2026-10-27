@@ -1,0 +1,2 @@
+subject,window_ms,step_ms,classifier,params,n_features,n_cycle1,n_cycle2,n_cycle3,cv_cycle1_to_cycle2,cv_cycle2_to_cycle1,cv_mean_accuracy,test_accuracy
+21,100,25.0,kNN,"{""n_neighbors"": 7, ""p"": 1, ""weights"": ""distance""}",32,189,206,239,0.6601941747572816,0.708994708994709,0.6845944418759953,0.5774058577405857
